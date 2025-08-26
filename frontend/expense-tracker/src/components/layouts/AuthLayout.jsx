@@ -24,7 +24,7 @@ const AuthLayout = ({ children }) => {
           </div>
         </div>
 
-        {/* Image - Referenced from public folder */}
+        
         <img
           src="/assets/images/card2.png"
           alt="Card preview"
