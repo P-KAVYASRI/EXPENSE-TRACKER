@@ -3,7 +3,7 @@ import React from "react";
 const AuthLayout = ({ children }) => {
   return (
     <div className="flex flex-col md:flex-row w-screen h-screen">
-      {/* Left Section - Always visible */}
+     
       <div className="w-full md:w-[60vw] px-12 pt-8 pb-12 bg-white">
         <h2 className="text-lg font-medium text-black">Expense Tracker</h2>
         {children} {/* Ensure children (e.g., login form) is passed */}
