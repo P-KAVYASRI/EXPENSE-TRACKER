@@ -9,7 +9,7 @@ const AuthLayout = ({ children }) => {
         {children} {/* Ensure children (e.g., login form) is passed */}
       </div>
 
-      {/* Right Section - Visible on md screens and above */}
+ 
       <div className="block w-[40vw] h-screen bg-violet-50 bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative"
            style={{ backgroundImage: "url('/assets/images/auth-bg-img.jpg')" }}> {/* Replace with correct path or remove */}
         <div className="w-48 h-48 rounded-[40px] bg-purple-600 absolute -top-9 -left-5" />
